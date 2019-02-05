@@ -3,6 +3,7 @@
 	
 "IMPORTANT" 
 repo id: https://github.com/415ec080/finalPrj.git
+"everything inside < > is the cmd to copy and paste on the cmd "
 
 
 1. Please ensure that you have verified your account

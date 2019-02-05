@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="3">
+        <Placemark id="5">
+            <name>0</name>
+            <Polygon id="4">
+                <outerBoundaryIs>
+                    <LinearRing id="6">
+                        <coordinates>16.0099999925,75.0913440043,0.0 16.0099999874,75.089999987,0.0 16.0112999091,75.089999987,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="9">
+            <name>1</name>
+            <Polygon id="8">
+                <outerBoundaryIs>
+                    <LinearRing id="10">
+                        <coordinates>16.009999993,75.091475916,0.0 16.0099999925,75.0913440043,0.0 16.0112999091,75.089999987,0.0 16.011592063,75.089999987,0.0 16.0115920658,75.0907188322,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="13">
+            <name>2</name>
+            <Polygon id="12">
+                <outerBoundaryIs>
+                    <LinearRing id="14">
+                        <coordinates>16.0115920693,75.0916460686,0.0 16.0099999937,75.0916460686,0.0 16.009999993,75.091475916,0.0 16.0115920658,75.0907188322,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>

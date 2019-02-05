@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="1">
+        <Placemark id="3">
+            <name>'Charleston County</name>
+            <Point id="2">
+                <coordinates>80,20,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="5">
+            <name>'Norfolk City</name>
+            <Point id="4">
+                <coordinates>36.8507689,-76.2858726,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="7">
+            <name>'Stafford County</name>
+            <Point id="6">
+                <coordinates>38.4334566,-77.4242972,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="9">
+            <name>'Barbour County</name>
+            <Point id="8">
+                <coordinates>39.1398692,-80.0087746,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="11">
+            <name>'York County</name>
+            <Point id="10">
+                <coordinates>37.2103925,-76.3868797,0.0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark id="13">
+            <name>line</name>
+            <LineString id="12">
+                <coordinates>-122.364383,37.824664,50 -122.364152,37.824322,50</coordinates>
+                <altitudeMode>relativeToGround</altitudeMode>
+            </LineString>
+        </Placemark>
+    </Document>
+</kml>

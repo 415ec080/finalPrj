@@ -27,7 +27,6 @@ repo id: https://github.com/415ec080/finalPrj.git
 			"first_3_letters_of_your_name_varsion_number"
 			ex: "pra_V1", "san_V2","adi_V420" etc
 			please do increment the version number for each commit or else you cant revert back.
-12. now push the changes to the server using remote
-	<git push origin master>
+12. now push the changes to the server using remote <git push origin master>
 13. give all the necessory credentials to login and it must not throw any error.
 	usually correct o/p will end with some id followed by "master -> master"

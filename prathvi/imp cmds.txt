@@ -1,1 +1,0 @@
-hellp(iface);  ====> all option that can be done with the image in canvas

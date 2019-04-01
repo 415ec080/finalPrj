@@ -73,7 +73,7 @@ speed=6;
 
 
 
-file = parser.fromstring(open('C:\\Users\\Prathvi\\Desktop\prj\\codes\\qgis\\85.kml', 'r').read())
+file = parser.fromstring(open('C:\\Users\\Prathvi\\Desktop\prj\\repo\\prathvi\\qgis\\85.kml', 'r').read())
 
 #file.Document.Placemark.Point.coordinates ==> to check once if want..
 

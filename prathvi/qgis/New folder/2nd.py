@@ -2,7 +2,7 @@ import sys
 sys.path.append( 'c:\\python27\\lib\\site-packages');
 
 from pykml import parser
-from qgis.core import *
+#from qgis.core import *
 from geographiclib.geodesic import Geodesic
 geod = Geodesic.WGS84 
 import math
@@ -28,7 +28,7 @@ speed=6;
 
 
 
-file = parser.fromstring(open('C:\\Users\\Prathvi\\Desktop\prj\\codes\\qgis\\85.kml', 'r').read())
+file = parser.fromstring(open('C:\\Users\\Prathvi\\Desktop\prj\\repo\\prathvi\\qgis\\85.kml', 'r').read())
 
 #file.Document.Placemark.Point.coordinates ==> to check once if want..
 
@@ -113,6 +113,10 @@ while h['lat2']<newcords[1][0]:
         points[c][1]=prevg
         points[c][2]=g['lat2'],g['lon2']
         points[c][3]=h['lat2'],h['lon2']
+        print("---------------------------------")
+        print("square ",c)
+        print(points[c])
+        print("---------------------------------")
         #g['lat2'],g['lon2']
         prevg=g['lat2'],g['lon2']
         prevh=h['lat2'],h['lon2']
@@ -125,17 +129,17 @@ while h['lat2']<newcords[1][0]:
 kml = simplekml.Kml()
 for x in range(dronesnr):
 	kml.newpolygon(name=str(x), outerboundaryis=points[x])
-	kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\codes\\qgis\\testfile.kml")
+	kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\testfile_new.kml")
 
 #--------------------------------------------------------------
 
 #----------------drawing in map--------------------------------
-for x in range(dronesnr):
-	poly=QgsGeometry.fromPolygonXY([[QgsPointXY(points[x][0][1],points[x][0][0]),QgsPointXY(points[x][1][1],points[x][1][0]),QgsPointXY(points[x][2][1],points[x][2][0]),QgsPointXY(points[x][3][1],points[x][3][0])]])
-	f=QgsFeature();
-	f.setGeometry(poly);
-	f.setAttributes([features])
-	vpr.addFeatures([f])
+# for x in range(dronesnr):
+#     	poly=QgsGeometry.fromPolygonXY([[QgsPointXY(points[x][0][1],points[x][0][0]),QgsPointXY(points[x][1][1],points[x][1][0]),QgsPointXY(points[x][2][1],points[x][2][0]),QgsPointXY(points[x][3][1],points[x][3][0])]])
+# 	f=QgsFeature();
+# 	f.setGeometry(poly);
+# 	f.setAttributes([features])
+# 	vpr.addFeatures([f])
 
 print("===============>done<====================")
 
@@ -146,3 +150,4 @@ print("===============>done<====================")
 
 #[[(16.010876568366573, 75.09), (16.01, 75.09), (16.009999998087924, 75.09090629591385), (16.010876566454385, 75.09090629986781)], [(16.010876566454385, 75.09090629986781), (16.009999998087924, 75.09090629591385), (16.009999996175846, 75.09181259182769), (16.0108765645422, 75.09181259973562)], [(16.0108765645422, 75.09181259973562), (16.009999996175846, 75.09181259182769), (16.00999999426377, 75.09271888774151), (16.010876562630013, 75.09271889960341)], [(16.010876562630013, 75.09271889960341), (16.00999999426377, 75.09271888774151), (16.009999992351688, 75.09362518365533), (16.010876560717826, 75.0936251994712)], [(16.011753129013393, 75.09), (16.010876560718255, 75.09), (16.01087655880607, 75.09090629986778), (16.011753127101095, 75.090906303822)], [(16.011753127101095, 75.090906303822), (16.01087655880607, 75.09090629986778), (16.010876556893887, 75.09181259973555), (16.0117531251888, 75.09181260764397)], [(16.0117531251888, 75.09181260764397), (16.010876556893887, 75.09181259973555), (16.0108765549817, 75.09271889960331), (16.011753123276502, 75.09271891146595)], [(16.011753123276502, 75.09271891146595), (16.0108765549817, 75.09271889960331), (16.010876553069515, 75.09362519947106), (16.011753121364208, 75.09362521528791)], [(16.012629689588334, 75.09), (16.011753121364645, 75.09), (16.01175311945235, 75.09090630382197), (16.01262968767593, 75.09090630777642)], [(16.01262968767593, 75.09090630777642), (16.01175311945235, 75.09090630382197), (16.011753117540053, 75.09181260764392), (16.01262968576352, 75.09181261555283)], [(16.01262968576352, 75.09181261555283), (16.011753117540053, 75.09181260764392), (16.011753115627755, 75.09271891146585), (16.01262968385111, 75.09271892332923)], [(16.01262968385111, 75.09271892332923), (16.011753115627755, 75.09271891146585), (16.011753113715457, 75.09362521528779), (16.012629681938705, 75.09362523110562)], [[0.0], [0.0], [0.0], [0.0]], [[0.0], [0.0], [0.0], [0.0]], [[0.0], [0.0], [0.0], [0.0]], [[0.0], [0.0], [0.0], [0.0]]]
 #poly=QgsGeometry.fromPolygonXY([[QgsPointXY(points[0][0][1],points[0][0][0]),QgsPointXY(points[0][1][1],points[0][1][0]),QgsPointXY(points[0][2][1],points[0][2][0]),QgsPointXY(points[0][3][1],points[0][3][0])]])
+#15.32038,74.78705  15.32100,74.787661

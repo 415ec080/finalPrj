@@ -18,13 +18,13 @@ def exprt(toexp):
     kml = simplekml.Kml()
     for x in range(len(toexp)):
         kml.newpolygon(name=str(x), outerboundaryis=toexp[x])
-        kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\codes\\testfile.kml")
+        kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\testfile_line.kml")
 
 def exprt2(toexp):
     kml = simplekml.Kml()
     for x in range(len(toexp)):
         kml.newpolygon(name=str(x), outerboundaryis=toexp[x])
-        kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\codes\\testfile2.kml")
+        kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\testfile2_line.kml")
 
 
 
@@ -94,7 +94,7 @@ speed=6;
 
 cordinates=2
 
-file = parser.fromstring(open('C:\\Users\\Prathvi\\Desktop\prj\\codes\\qgis\\85.kml', 'r').read())
+file = parser.fromstring(open('C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\85.kml', 'r').read())
 sides=len(file.Document.Placemark.Point);
 #file.Document.Placemark.Point.coordinates ==> to check once if want..
 

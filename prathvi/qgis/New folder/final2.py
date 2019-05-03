@@ -18,13 +18,13 @@ def exprt(toexp):
     kml = simplekml.Kml()
     for x in range(len(toexp)):
         kml.newpolygon(name=str(x), outerboundaryis=toexp[x])
-        kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\testfile_line.kml")
+        kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\New folder\\linediv_usual.kml")
 
 def exprt2(toexp):
     kml = simplekml.Kml()
     for x in range(len(toexp)):
         kml.newpolygon(name=str(x), outerboundaryis=toexp[x])
-        kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\testfile2_line.kml")
+        kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\New folder\\linediv_map.kml")
 
 
 
@@ -77,7 +77,7 @@ def findarea(point):
 
 #-----------------------assumptions-----------------------
 
-dronesnr=3;
+dronesnr=4;
 battery=3300;
 n=2;
 dist_of_location=1000;#in meters

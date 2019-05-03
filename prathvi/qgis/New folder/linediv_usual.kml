@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="39">
+        <Placemark id="41">
+            <name>0</name>
+            <Polygon id="40">
+                <outerBoundaryIs>
+                    <LinearRing id="42">
+                        <coordinates>15.320379998870713,74.78749177500586,0.0 15.320379998253063,74.7870499982,0.0 15.320808745695155,74.7870499982,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="45">
+            <name>1</name>
+            <Polygon id="44">
+                <outerBoundaryIs>
+                    <LinearRing id="46">
+                        <coordinates>15.32037999892867,74.7875332293242,0.0 15.320379998870713,74.78749177500586,0.0 15.320808745695155,74.7870499982,0.0 15.320986338046442,74.7870499982,0.0 15.320986338244321,74.78719153246443,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="49">
+            <name>2</name>
+            <Polygon id="48">
+                <outerBoundaryIs>
+                    <LinearRing id="50">
+                        <coordinates>15.32049883166442,74.78746626224554,0.0 15.320986338244321,74.78719153246443,0.0 15.320986338787524,74.78758005862774,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="53">
+            <name>3</name>
+            <Polygon id="52">
+                <outerBoundaryIs>
+                    <LinearRing id="54">
+                        <coordinates>15.320986338919933,74.78767476427643,0.0 15.32037999912655,74.78767476427643,0.0 15.32037999892867,74.7875332293242,0.0 15.32049883166442,74.78746626224554,0.0 15.320986338787524,74.78758005862774,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>

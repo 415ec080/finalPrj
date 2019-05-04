@@ -1,6 +1,7 @@
 import sys
 sys.path.append( 'c:\\python27\\lib\\site-packages');
-
+import time
+start=time.time()
 from pykml import parser
 #from qgis.core import *
 from geographiclib.geodesic import Geodesic
@@ -77,7 +78,7 @@ def findarea(point):
 
 #-----------------------assumptions-----------------------
 
-dronesnr=5;
+dronesnr=15;
 battery=3300;
 n=2;
 dist_of_location=1000;#in meters
@@ -225,3 +226,9 @@ for i in range(len(mapcords)):
 #converted to map equ
 exprt2(mapcords)
 
+
+stop=time.time();
+runtime=stop-start;
+print("-------------------------runtime-------------------------------")
+print(runtime)
+print("---------------------------------------------------------------")

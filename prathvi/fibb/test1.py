@@ -1,3 +1,6 @@
+import time
+start =time.time()
+
 from pykml import parser
 from geographiclib.geodesic import Geodesic
 geod = Geodesic.WGS84 
@@ -8,7 +11,7 @@ numcenter=0;
 from copy import deepcopy
 
 #---assumptions
-dronesnr=10;
+dronesnr=;
 battery=3300;
 n=2;
 dist_of_location=1000;#in meters
@@ -149,6 +152,12 @@ exp(mapcords,"fibb_map_10.kml")
 exp(indcords,"fibb_qgis_10.kml")
 
 
+
+stop=time.time();
+runtime=stop-start;
+print("-------------------------runtime-------------------------------")
+print(runtime)
+print("---------------------------------------------------------------")
 
     
 #"Polygon.kml"

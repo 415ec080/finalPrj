@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document id="185">
+        <Placemark id="187">
+            <name>0</name>
+            <Polygon id="186">
+                <outerBoundaryIs>
+                    <LinearRing id="190">
+                        <coordinates>74.78735550000005,15.320689999999999,0.0 74.78751681380018,15.320689999999999,0.0 74.78751681380018,15.320846556202042,0.0 74.78735550000005,15.320846556202042,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="193">
+            <name>1</name>
+            <Polygon id="192">
+                <outerBoundaryIs>
+                    <LinearRing id="196">
+                        <coordinates>74.78751681380018,15.320846556202042,0.0 74.78767812748032,15.320846556202042,0.0 74.78767812748032,15.320689999883541,0.0 74.78751681380018,15.320689999883541,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="199">
+            <name>2</name>
+            <Polygon id="198">
+                <outerBoundaryIs>
+                    <LinearRing id="202">
+                        <coordinates>74.78767812748032,15.320689999883541,0.0 74.78735550060004,15.320689999883541,0.0 74.78735550060004,15.32037688712351,0.0 74.78767812748032,15.32037688712351,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="205">
+            <name>3</name>
+            <Polygon id="204">
+                <outerBoundaryIs>
+                    <LinearRing id="208">
+                        <coordinates>74.78735550060004,15.32037688712351,0.0 74.78687155919962,15.32037688712351,0.0 74.78687155919962,15.320846555386812,0.0 74.78735550060004,15.320846555386812,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="211">
+            <name>4</name>
+            <Polygon id="210">
+                <outerBoundaryIs>
+                    <LinearRing id="214">
+                        <coordinates>74.78687155919962,15.320846555386812,0.0 74.78767813120045,15.320846555386812,0.0 74.78767813120045,15.321629335199473,0.0 74.78687155919962,15.321629335199473,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="217">
+            <name>5</name>
+            <Polygon id="216">
+                <outerBoundaryIs>
+                    <LinearRing id="220">
+                        <coordinates>74.78767813120045,15.321629335199473,0.0 74.78896863872141,15.321629335199473,0.0 74.78896863872141,15.320376881416676,0.0 74.78767813120045,15.320376881416676,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="223">
+            <name>6</name>
+            <Polygon id="222">
+                <outerBoundaryIs>
+                    <LinearRing id="226">
+                        <coordinates>74.78896863872141,15.320376881416676,0.0 74.78687158427854,15.320376881416676,0.0 74.78687158427854,15.318341639936556,0.0 74.78896863872141,15.318341639936556,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="229">
+            <name>7</name>
+            <Polygon id="228">
+                <outerBoundaryIs>
+                    <LinearRing id="232">
+                        <coordinates>74.78687158427854,15.318341639936556,0.0 74.78348398187731,15.318341639936556,0.0 74.78348398187731,15.321629295954095,0.0 74.78687158427854,15.321629295954095,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="235">
+            <name>8</name>
+            <Polygon id="234">
+                <outerBoundaryIs>
+                    <LinearRing id="238">
+                        <coordinates>74.78348398187731,15.321629295954095,0.0 74.7889688102317,15.321629295954095,0.0 74.7889688102317,15.326952139798415,0.0 74.78348398187731,15.326952139798415,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="241">
+            <name>9</name>
+            <Polygon id="240">
+                <outerBoundaryIs>
+                    <LinearRing id="244">
+                        <coordinates>74.7889688102317,15.326952139798415,0.0 74.79784096360352,15.326952139798415,0.0 74.79784096360352,15.318341370743363,0.0 74.7889688102317,15.318341370743363,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="247">
+            <name>10</name>
+            <Polygon id="246">
+                <outerBoundaryIs>
+                    <LinearRing id="250">
+                        <coordinates>74.79784096360352,15.318341370743363,0.0 74.78348515632683,15.318341370743363,0.0 74.78348515632683,15.30440739087645,0.0 74.79784096360352,15.30440739087645,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="253">
+            <name>11</name>
+            <Polygon id="252">
+                <outerBoundaryIs>
+                    <LinearRing id="256">
+                        <coordinates>74.78348515632683,15.30440739087645,0.0 74.76025529578534,15.30440739087645,0.0 74.76025529578534,15.326950295757287,0.0 74.78348515632683,15.326950295757287,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="259">
+            <name>12</name>
+            <Polygon id="258">
+                <outerBoundaryIs>
+                    <LinearRing id="262">
+                        <coordinates>74.76025529578534,15.326950295757287,0.0 74.79784902514457,15.326950295757287,0.0 74.79784902514457,15.363424659061765,0.0 74.76025529578534,15.363424659061765,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="265">
+            <name>13</name>
+            <Polygon id="264">
+                <outerBoundaryIs>
+                    <LinearRing id="268">
+                        <coordinates>74.79784902514457,15.363424659061765,0.0 74.85865956656849,15.363424659061765,0.0 74.85865956656849,15.304394730455915,0.0 74.79784902514457,15.304394730455915,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark id="271">
+            <name>14</name>
+            <Polygon id="270">
+                <outerBoundaryIs>
+                    <LinearRing id="274">
+                        <coordinates>74.85865956656849,15.304394730455915,0.0 74.76031033173409,15.304394730455915,0.0 74.76031033173409,15.208873275452092,0.0 74.85865956656849,15.208873275452092,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+    </Document>
+</kml>

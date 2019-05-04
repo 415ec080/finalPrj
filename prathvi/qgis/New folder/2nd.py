@@ -14,7 +14,7 @@ import simplekml
 kml = simplekml.Kml()
 #-----------------------assumptions-----------------------
 
-dronesnr=15;
+dronesnr=6;
 battery=3300;
 n=2;
 dist_of_location=1000;#in meters

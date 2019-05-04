@@ -78,7 +78,7 @@ def findarea(point):
 
 #-----------------------assumptions-----------------------
 
-dronesnr=15;
+dronesnr=5;
 battery=3300;
 n=2;
 dist_of_location=1000;#in meters
@@ -198,7 +198,9 @@ for x in range(0,(num-1)):
             points[1]=[float((points[1][0]+min1[0])*0.5),float((points[1][1]+min1[1])*0.5)]
             points[2]=[float((points[2][0]+min2[0])*0.5),float((points[2][1]+min2[1])*0.5)]
         area=findarea(points)
-        print(area)
+        
+        print("area= ",area)
+        
         print(points)
     print("--------------------------------------------------")
     print(points)

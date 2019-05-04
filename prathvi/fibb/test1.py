@@ -11,7 +11,7 @@ numcenter=0;
 from copy import deepcopy
 
 #---assumptions
-dronesnr=;
+dronesnr=5;
 battery=3300;
 n=2;
 dist_of_location=1000;#in meters
@@ -93,6 +93,7 @@ def calcbBox(x,center,count,m):
         g = geod.Direct(center[0], center[1], 315, diag)
         newcord=getshiftedcord(g)
     bBox=[center,newcord]
+    print("bBox",bBox)
     return bBox
 
 def exp(indcords,file):

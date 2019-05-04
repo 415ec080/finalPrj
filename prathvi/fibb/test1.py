@@ -1,3 +1,7 @@
+import sys
+sys.path.append( 'C:\\Users\\Prathvi\\AppData\\Local\\Programs\\Python\\Python37-32\\Lib\\site-packages');
+
+
 import time
 start =time.time()
 
@@ -18,7 +22,7 @@ dist_of_location=1000;#in meters
 speed=6;
 
 def import_cord():
-    file = parser.fromstring(open('C:\\Users\\Prathvi\\Desktop\prj\\repo\\prathvi\\qgis\\85.kml', 'r').read())
+    file = parser.fromstring(open('C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\output_pics\\85.kml', 'r').read())
     cords = [[0.0 for x in range(num)] for y in range(cor)] # create empty 4*3 matrix
     for x in range(cor):
 	    for y in range(num):
@@ -93,7 +97,6 @@ def calcbBox(x,center,count,m):
         g = geod.Direct(center[0], center[1], 315, diag)
         newcord=getshiftedcord(g)
     bBox=[center,newcord]
-    print("bBox",bBox)
     return bBox
 
 def exp(indcords,file):
@@ -149,8 +152,8 @@ for i in range(len(mapcords)):
     for j in range(len(mapcords[i])):
         mapcords[i][j]=mapcords[i][j][::-1]
 
-exp(mapcords,"fibb_map_10.kml")
-exp(indcords,"fibb_qgis_10.kml")
+exp(mapcords,"C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\fibb\\fibb_map_52.kml")
+exp(indcords,"C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\fibb\\fibb_qgis_52.kml")
 
 
 

@@ -11,7 +11,7 @@ import simplekml
 kml = simplekml.Kml()
 #-----------------------assumptions-----------------------
 
-dronesnr=12;
+dronesnr=5;
 battery=3300;
 n=2;
 dist_of_location=1000;#in meters
@@ -46,14 +46,14 @@ for i in range(cor):
 
 
 
-layer = iface.addVectorLayer('I:\\TM_WORLD_BORDERS-0.3\\TM_WORLD_BORDERS-0.3.shp','test','ogr')
-features=layer.featureCount()
-vpr = layer.dataProvider()
-poly= QgsGeometry.fromPolygonXY([[QgsPointXY(cordsmap[0][0],cordsmap[0][1]),QgsPointXY(cordsmap[1][0],cordsmap[1][1]), QgsPointXY(cordsmap[2][0],cordsmap[2][1]), QgsPointXY(cordsmap[3][0],cordsmap[3][1])]])
-f=QgsFeature();
-f.setGeometry(poly);
-f.setAttributes([features])
-vpr.addFeatures([f])
+# layer = iface.addVectorLayer('I:\\TM_WORLD_BORDERS-0.3\\TM_WORLD_BORDERS-0.3.shp','test','ogr')
+# features=layer.featureCount()
+# vpr = layer.dataProvider()
+# poly= QgsGeometry.fromPolygonXY([[QgsPointXY(cordsmap[0][0],cordsmap[0][1]),QgsPointXY(cordsmap[1][0],cordsmap[1][1]), QgsPointXY(cordsmap[2][0],cordsmap[2][1]), QgsPointXY(cordsmap[3][0],cordsmap[3][1])]])
+# f=QgsFeature();
+# f.setGeometry(poly);
+# f.setAttributes([features])
+# vpr.addFeatures([f])
 
 #-------------to find total area-------------------------------
 p = geod.Polygon()
@@ -126,10 +126,46 @@ while h['lat2']<newcords[1][0]:
 
 
 #--------------------------------------------------------------
+
+mapcords=[]
+mapcords=deepcopy(points)
+
+
+for i in range(len(mapcords)):
+    for j in range(len(mapcords[i])):
+        mapcords[i][j]=mapcords[i][j][::-1]
+
+
+
 kml = simplekml.Kml()
-for x in range(dronesnr):
+for x in range(len(points)):
 	kml.newpolygon(name=str(x), outerboundaryis=points[x])
-	kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\testfile_new.kml")
+	kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\New folder\\areadiv_normal.kml")
+
+
+
+
+
+kml = simplekml.Kml()
+for x in range(len(points)):
+	kml.newpolygon(name=str(x), outerboundaryis=mapcords[x])
+	kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\New folder\\areadiv_map.kml")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #--------------------------------------------------------------
 

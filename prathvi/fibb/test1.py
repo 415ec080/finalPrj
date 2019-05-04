@@ -8,7 +8,7 @@ numcenter=0;
 from copy import deepcopy
 
 #---assumptions
-dronesnr=4;
+dronesnr=5;
 battery=3300;
 n=2;
 dist_of_location=1000;#in meters

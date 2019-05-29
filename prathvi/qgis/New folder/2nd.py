@@ -14,7 +14,7 @@ import simplekml
 kml = simplekml.Kml()
 #-----------------------assumptions-----------------------
 
-dronesnr=6;
+dronesnr=20;
 battery=3300;
 n=2;
 dist_of_location=1000;#in meters
@@ -86,6 +86,7 @@ print("_____________________________________________")
 
 # to make smaller sized total area
 num, cor = 2,4;
+
 pressize=math.sqrt(presarea)
 g = geod.Direct(cords[0][0],cords[0][1], 90, pressize)
 g['lat2'],g['lon2']=cords[0][0],cords[0][1];
@@ -143,7 +144,7 @@ for i in range(len(mapcords)):
 kml = simplekml.Kml()
 for x in range(len(points)):
 	kml.newpolygon(name=str(x), outerboundaryis=points[x])
-	kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\New folder\\areadiv_normal.kml")
+	kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\New folder\\areadiv_normal_15.kml")
 
 
 
@@ -152,11 +153,12 @@ for x in range(len(points)):
 kml = simplekml.Kml()
 for x in range(len(points)):
 	kml.newpolygon(name=str(x), outerboundaryis=mapcords[x])
-	kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\New folder\\areadiv_map.kml")
+	kml.save("C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\New folder\\areadiv_map_15.kml")
 
 
 
-
+stop=time.time();
+print(stop-start)
 
 
 

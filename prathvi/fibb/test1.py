@@ -15,7 +15,7 @@ numcenter=0;
 from copy import deepcopy
 
 #---assumptions
-dronesnr=5;
+dronesnr=10;
 battery=3300;
 n=2;
 dist_of_location=1000;#in meters
@@ -152,8 +152,8 @@ for i in range(len(mapcords)):
     for j in range(len(mapcords[i])):
         mapcords[i][j]=mapcords[i][j][::-1]
 
-exp(mapcords,"C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\fibb\\fibb_map_52.kml")
-exp(indcords,"C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\fibb\\fibb_qgis_52.kml")
+exp(mapcords,"C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\fibb\\fibb_map_10.kml")
+exp(indcords,"C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\fibb\\fibb_qgis_10.kml")
 
 
 

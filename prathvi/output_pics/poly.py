@@ -28,7 +28,7 @@ def import_cord(file_name):
     return cords
 
 
-cords=import_cord('C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\output_pics\\85.kml')
+cords=import_cord('C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\output_pics\\precalc2_input.kml')
 cords=[cords]
 mapcords=deepcopy(cords)
 
@@ -37,4 +37,4 @@ for i in range(len(mapcords)):
         mapcords[i][j]=mapcords[i][j][::-1]
 
 
-exp(mapcords, 'C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\output_pics\\85_poly.kml')
+exp(mapcords, 'C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\output_pics\\86_poly.kml')

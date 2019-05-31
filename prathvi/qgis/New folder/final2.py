@@ -95,7 +95,7 @@ speed=6;
 
 cordinates=2
 
-file = parser.fromstring(open('C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\85.kml', 'r').read())
+file = parser.fromstring(open('C:\\Users\\Prathvi\\Desktop\\prj\\repo\\prathvi\\qgis\\86.kml', 'r').read())
 sides=len(file.Document.Placemark.Point);
 #file.Document.Placemark.Point.coordinates ==> to check once if want..
 
@@ -231,6 +231,10 @@ exprt2(mapcords)
 
 stop=time.time();
 runtime=stop-start;
+print("_____________________________________________")
+print("each drone have to cover area of ",eacharea)
+print("number of extra centers required is",numcenter);
+print("_____________________________________________")
 print("-------------------------runtime-------------------------------")
 print(runtime)
 print("---------------------------------------------------------------")
